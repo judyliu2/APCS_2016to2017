@@ -1,0 +1,139 @@
+Project New Leaf
+Carol Pan
+Judy Liu
+Samantha Ngo
+pd 3
+---------------------
+2048
+
+
+/////////// Zone of Reflection \\\\\\\\\\\
+------------------------------------------
+OBSTACLES OVERCOME
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wow we so BOSS bc...
+
+1. We figured out how to separate significant and insignificant values in 2D arrays! By using a specific instance as a nullValue, we can keep track of where it isn't significant.
+
+2. We figured out justification, and it works very nicely!
+
+3. We added features that would ensure that the user is limited accordingly in their options, i.e. safe for bad users! From now on, you can't swipe in a direction that wouldn't change the current grid.
+
+4. We found a way to continue the game if the board is filled but there are still tiles that can merge.
+
+5. We adapted the code to take on different grid sizes for changes in difficulty.
+
+UNRESOLVED ISSUES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+blah blah pesky bug...
+maybe some of these will move into the Obs.Ovrcm section...
+
+1. Packages are limited. No clue how to hold just 2048 in the root of the repo...especially with an interface, yeesh.
+
+
+COOL STUFF LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wow! oo!...
+
+1. Learned what a package is, and explored importation. Though, this is hard to apply...
+
+2. Learned how to justify up and down in a 2D array
+
+MID-DEVELOPMENT DESIGN CHANGES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+we changed ___ to ___ bc...
+
+1. 2017-01-12
+   We made a new class called Grid2 to contain integers instead of Tiles (temporarily) because Tile class wasn't created yet. 
+
+2. 2017-01-18
+   We decided to let the user change the Grid size instead of using a standard 4x4 Grid all the time because it would have improved UX and allow the user to choose their own difficulty levels.
+
+LESSONS LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tales of wisdom gained...
+
+1. Merge conflicts happen a lot. Thus, coordination is key.
+
+
+
+||||||||||||||||||||||||||||||||||||||||||
+
+
+
+ ______   ______   __   __   __       ______   _______     
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\    
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__  
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\ 
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/ 
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \ 
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/ 
+==============================================================
+
+
+2016-01-05
+--------------------------------------------------------------
+All :: -Helped plan methods, instance variables, classes, and rules for 2048
+
+
+2017-01-09
+--------------------------------------------------------------
+Carol :: Worked on UML diagram; proposed revisions; pushed to repo
+Judy :: Worked on revising proposal and UML diagram; proposed revisions
+Samantha :: Worked on revising proposal; proposed revisions
+
+2017-01-10
+--------------------------------------------------------------
+Carol :: Worked on todo.txt
+Judy :: Worked on todo.txt and flowchart; pushed todo.txt to repo
+Samantha :: Worked on todo.txt
+
+2017-01-11
+--------------------------------------------------------------
+Carol :: Helped with editing UML diagram, copied files from library to git repo; added to devlog.
+Judy :: Helped with editing UML diagram, copied files from library to git repo; added to devlog.
+Samantha :: Helped with editing UML diagram, copied files from library to git repo; added to devlog.
+
+2017-01-12
+-------------------------------------------------------------- 
+Carol :: created Grid.java, worked on set(), get(), leftJustify(). Used leftJustify and copy and paste to do upJustify() and downJustify(). Made diligent comments
+Judy :: worked on Grid.java,  worked on rightJustify(), added Grid2.java which takes integers, fixed flowchart.
+Samantha :: worked on Grid.java, worked on Grid(), created main().
+
+2017-01-13
+-------------------------------------------------------------- 
+Judy :: Created Tiles and Empty classes and their methods.
+
+2017-01-15
+--------------------------------------------------------------
+Carol :: created a skeleton for 2048, added Keyboard.java, augmented Grid, added 2048 functionality and swiping
+Judy :: wrote turn() 2048, changed "2048.java" to "Game2048.java", helped with swipe() methods 
+Samantha :: wrote interface Equalizer, constructor, and game(); fixed minor syntax; augmented turn()
+
+2017-01-16
+--------------------------------------------------------------
+:::Mark this day down as the day all our efforts bore fruit. It works!!!:::
+Carol :: resolved compile problems, tried some stuff with packaging.
+Judy & Samantha:: Tested the game for any bugs.
+
+
+2017-01-17
+--------------------------------------------------------------
+All: Worked together to solve swipe() bug.
+
+
+2017-01-19
+--------------------------------------------------------------
+Judy :: Made method checker() to check if neighbors of a tile is mergeable to itself, used this method to determine if the player loses after the grid is filled and updated UML diagram.
+
+2017-01-19
+--------------------------------------------------------------
+Carol & Judy :: Fixed method checker() bugs; final testing
+Samantha :: Made methods scaleable; final testing
+
+2017-01-22
+--------------------------------------------------------------
+Carol:: Updated and uploaded uml.pdf
+Judy :: Updated flowchart, made it possible for user to customize grid size(UX)
+Samantha: Updated devlog; resolved bugs; robustified
+==============================================================
